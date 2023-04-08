@@ -1,0 +1,151 @@
+.side-nav {
+    width: 15%;
+    height: 100vmin;
+    background-color: #000;
+    color: #fff;
+    /* float: left; */
+    /* display: flex; */
+    position: fixed;
+}
+
+.side-nav li a {
+    background-color: #000;
+    color: #DFDFDF;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.logo {
+    width: 70%;
+    filter: invert();
+}
+
+.nav-img {
+    filter: invert(0.5);
+    width: 30px;
+    margin-right: 5px;
+}
+
+.side-nav li a:hover {
+    color: #fff;
+
+}
+
+.nav-img:hover {
+    filter: invert(1);
+}
+
+.header {
+    background-color: #0F0F0F;
+    height: 4.5rem;
+    width: 85%;
+    float: right;
+    /* position: sticky; */
+}
+
+.btn {
+    font-size: 17px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.btn-1 {
+    color: #A7A7A7;
+}
+.btn-1:hover{
+    color: #fff;
+}
+
+.btn-2 {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.btn-2:hover{
+   background-color: #9D9D9D;
+   border-color: #A7A7A7;
+}
+
+.head{
+    display: flex;
+}
+
+.arrow{
+    filter: invert();
+    margin-right: 20px;
+}
+.arrow img{
+    width: 20px;
+    /* border: 1px solid black; */
+}
+.thumb{
+    background-color: #0F0F0F;
+    /* height: 4.5rem; */
+    width: 85%;
+    float: right;
+    margin-right: 0;
+}
+.img{
+   
+    display: flex;
+    height: 250px;
+    border: 1px solid black;
+    width: 190px;
+    background-color: #181818;
+    margin-top: 2rem;
+
+}
+.thum-img{
+   width: 173px;
+    height: 154px;
+   
+}
+.song-name, .detail{
+    /* font-weight: bold; */
+
+    color: #F3F3F3;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.song-name{
+    font-weight: bold;
+}
+.detail{
+    font-size: 12px;
+}
+.sen a{
+    color: #7F7F7F;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+ }
+.seen a{
+    float: right;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+}
+.hov a:hover{
+    text-decoration: underline;
+    /* cursor: pointer; */
+}
+.play{
+    display: none;
+    margin-left: 7rem;
+    margin-top: -83px;
+    /* color: blue; */
+    background: blue;
+    border: 1px solid black;
+    border-radius: 58px;
+
+}
+.play:hover{
+    /* display: block; */
+}
+.list img:hover, .list:hover{
+    display: initial;
+}
